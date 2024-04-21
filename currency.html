@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="currency.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h1 class="gold">Currency Calculator</h1>
+         
+            <table class="card">
+                <tr>
+                <td class="gold">Currency in hand : </td>
+                <td><select id="opt1">
+                    <option>Select</option>
+                    <option value="EURO">Euro</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                    <option value="BTC">Bitcoin Digital Currency</option>
+                    <option value="ETH">Etherium Digital Currency</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td class="gold" > Convert Amount : </td>
+                <td > <input id="amt" type="text" placeholder="Amount" name="amount"></td>
+            </tr>
+
+            <tr>
+                <td class="gold" >Convert to:</td>
+                <td><select id="opt2">
+                    <option >Select</option>
+                    <option value="EURO">Euro</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                    <option value="BTC">Bitcoin Digital Currency</option>
+                    <option value="ETH">Etherium Digital Currency</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td class="gold" colspan="2"><input type="button" value="Result" onclick="op12()"/> </td>
+            </tr>
+
+            <tr>
+                <td class="gold">Conversion Value : </td>
+                <td ><input id="result" type="text" name="result" ></td>
+            </tr>
+
+
+            </table>
+        </div>
+
+        <script src="./currency.js"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+.div1{
+    height: 600px;
+    width: 1000px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+.gold{
+    padding-left: 375px;
+    
+    color: gold;
+    
+}
+.card{
+    font-size: larger;
+    height: 100px;
+    width: 120px;
+}
